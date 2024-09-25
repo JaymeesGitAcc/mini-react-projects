@@ -1,10 +1,10 @@
-import React, { useEffect } from "react"
-import { Link, Outlet, useLocation, useNavigate } from "react-router-dom"
+import React from "react"
+import { Link, Outlet, useLocation } from "react-router-dom"
 
 const listItems = [
     {
         name: "Todo List using Zustand",
-        path: "/zustand-todo-list",
+        path: "/",
     },
     {
         name: "Rotate Boxes",
@@ -21,6 +21,10 @@ const listItems = [
     {
         name: "Todo List using Redux",
         path: "/redux-todo-list",
+    },
+    {
+        name: "Dynamic Checkboxes Counter",
+        path: "/checkboxes-counter",
     },
 ]
 

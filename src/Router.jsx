@@ -6,6 +6,7 @@ import Boxes from "./components/Boxes/Boxes"
 import CommentSection from "./components/CommentSection/CommentSection"
 import { comments } from "./data/comments.js"
 import NestedCircles from "./components/NestedCircles/NestedCircles.jsx"
+import CheckBoxes from "./components/DynamicCheckboxCounter/CheckBoxes.jsx"
 
 const router = createBrowserRouter([
     {
@@ -29,12 +30,12 @@ const router = createBrowserRouter([
                 element: <CommentSection comments={comments} />,
             },
             {
-                path: "zustand-todo-list",
-                element: <ZustandTodoList />,
-            },
-            {
                 path: "redux-todo-list",
                 element: <ReduxTodoList />,
+            },
+            {
+                path: "checkboxes-counter",
+                element: <CheckBoxes />,
             },
         ],
     },
