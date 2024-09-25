@@ -7,6 +7,7 @@ import CommentSection from "./components/CommentSection/CommentSection"
 import { comments } from "./data/comments.js"
 import NestedCircles from "./components/NestedCircles/NestedCircles.jsx"
 import CheckBoxes from "./components/DynamicCheckboxCounter/CheckBoxes.jsx"
+import TrafficLightSystem from "./components/traffic-light-system/TrafficLightSystem.jsx"
 
 const router = createBrowserRouter([
     {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
             {
                 path: "checkboxes-counter",
                 element: <CheckBoxes />,
+            },
+            {
+                path: "traffic-light-system",
+                element: <TrafficLightSystem />,
             },
         ],
     },

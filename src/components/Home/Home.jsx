@@ -26,6 +26,10 @@ const listItems = [
         name: "Dynamic Checkboxes Counter",
         path: "/checkboxes-counter",
     },
+    {
+        name: "Traffic Light system",
+        path: "/traffic-light-system",
+    },
 ]
 
 const Menu = () => {
