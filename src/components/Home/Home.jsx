@@ -30,6 +30,10 @@ const listItems = [
         name: "Traffic Light system",
         path: "/traffic-light-system",
     },
+    {
+        name: "Data Transfer System",
+        path: "/data-transfer",
+    },
 ]
 
 const Menu = () => {

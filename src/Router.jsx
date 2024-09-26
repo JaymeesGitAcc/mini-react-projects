@@ -8,6 +8,7 @@ import { comments } from "./data/comments.js"
 import NestedCircles from "./components/NestedCircles/NestedCircles.jsx"
 import CheckBoxes from "./components/DynamicCheckboxCounter/CheckBoxes.jsx"
 import TrafficLightSystem from "./components/traffic-light-system/TrafficLightSystem.jsx"
+import DataTransferBox from "./components/DataTransfer/DataTransferBox.jsx"
 
 const router = createBrowserRouter([
     {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
             {
                 path: "traffic-light-system",
                 element: <TrafficLightSystem />,
+            },
+            {
+                path: "data-transfer",
+                element: <DataTransferBox />,
             },
         ],
     },
