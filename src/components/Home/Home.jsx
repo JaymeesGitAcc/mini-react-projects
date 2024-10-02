@@ -66,7 +66,7 @@ const Home = () => {
     return (
         <div className="flex">
             <Menu />
-            <div className="min-h-screen grow bg-slate-800">
+            <div className="min-h-screen grow bg-slate-800 flex justify-center items-center">
                 <Outlet />
             </div>
         </div>

@@ -40,7 +40,7 @@ export default function Boxes({ length = 5 }) {
     }, [boxes, length])
 
     return (
-        <div className="bg-slate-400 h-screen flex justify-center items-center gap-8">
+        <div className="flex justify-center items-center gap-8">
             {Array.from({ length })
                 .fill("")
                 .map((item, index) => (

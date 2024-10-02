@@ -26,8 +26,8 @@ const NestedCircles = () => {
     }
 
     return (
-        <div>
-            <div className="flex justify-center p-4">
+        <div className="border w-full border border-red-500 min-h-screen">
+            <div className="m-2">
                 <input
                     type="number"
                     className="border p-2"
@@ -37,7 +37,7 @@ const NestedCircles = () => {
                 />
             </div>
 
-            <div className="flex justify-center items-center p-4 border min-h-screen">
+            <div>
                 <Circle value={input} />
             </div>
         </div>

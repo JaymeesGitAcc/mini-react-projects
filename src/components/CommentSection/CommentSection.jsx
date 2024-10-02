@@ -2,7 +2,7 @@ import Comment from "./Comment"
 
 function CommentSection({ comments }) {
     return (
-        <div className="bg-slate-200 min-h-screen">
+        <div className="bg-slate-100 p-4 rounded-md">
             {comments?.map((comment) => (
                 <Comment key={comment.id} {...comment} />
             ))}
