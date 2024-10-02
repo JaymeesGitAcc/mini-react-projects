@@ -34,6 +34,10 @@ const listItems = [
         name: "Data Transfer System",
         path: "/data-transfer",
     },
+    {
+        name: "Password Generator",
+        path: "/password-generator",
+    },
 ]
 
 const Menu = () => {

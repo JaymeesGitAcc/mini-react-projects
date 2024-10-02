@@ -9,6 +9,7 @@ import NestedCircles from "./components/NestedCircles/NestedCircles.jsx"
 import CheckBoxes from "./components/DynamicCheckboxCounter/CheckBoxes.jsx"
 import TrafficLightSystem from "./components/traffic-light-system/TrafficLightSystem.jsx"
 import DataTransferBox from "./components/DataTransfer/DataTransferBox.jsx"
+import PasswordGenerator from "./components/password-generator/PasswordGenerator.jsx"
 
 const router = createBrowserRouter([
     {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
             {
                 path: "data-transfer",
                 element: <DataTransferBox />,
+            },
+            {
+                path: "password-generator",
+                element: <PasswordGenerator />,
             },
         ],
     },
