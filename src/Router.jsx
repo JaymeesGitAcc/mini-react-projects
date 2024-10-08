@@ -10,6 +10,7 @@ import CheckBoxes from "./components/DynamicCheckboxCounter/CheckBoxes.jsx"
 import TrafficLightSystem from "./components/traffic-light-system/TrafficLightSystem.jsx"
 import DataTransferBox from "./components/DataTransfer/DataTransferBox.jsx"
 import PasswordGenerator from "./components/password-generator/PasswordGenerator.jsx"
+import CustomModal from "./components/custom-modal/CustomModal.jsx"
 
 const router = createBrowserRouter([
     {
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
             {
                 path: "password-generator",
                 element: <PasswordGenerator />,
+            },
+            {
+                path: "custom-modal",
+                element: <CustomModal />,
             },
         ],
     },

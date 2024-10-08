@@ -38,6 +38,10 @@ const listItems = [
         name: "Password Generator",
         path: "/password-generator",
     },
+    {
+        name: "Custom Modal",
+        path: "/custom-modal",
+    },
 ]
 
 const Menu = () => {
